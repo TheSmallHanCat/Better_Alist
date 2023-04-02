@@ -2,7 +2,7 @@
 Alist美化  
 # 自定义头部  
 ```html
-<link href="alist.css" rel="stylesheet" type="text/css">  
+<link href="http://39.103.236.238:19090/public/alist.css" rel="stylesheet" type="text/css">  
 <script>
 function getRandomNum(Min, Max) {
             var Range = Max - Min;
