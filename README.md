@@ -33,3 +33,8 @@ const live2d_path="http://api.itggg.cn/live2dnew/left/";function loadExternalRes
 
 ![image](https://user-images.githubusercontent.com/109069769/229329259-4a839d8b-3e31-47d5-a034-cee25c1bf3e8.png)
 
+# 一些帮助
+* live2d遮挡按钮，刷新即可解决  
+
+![image](https://user-images.githubusercontent.com/109069769/229330553-d3f03ad8-865a-41c4-b4df-7c1fe32e4a95.png)
+
