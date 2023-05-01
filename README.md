@@ -1,40 +1,40 @@
-# HanCat_Alist
-Alist美化  
+# HanCat_Alist  
+
+* 半透明化目录背景  
+
+* 随机甘城背景图  
+
+* 添加回到顶部猫猫  
+
 # 自定义头部  
 ```html
 <link href="http://39.103.236.238:19090/public/alist.css" rel="stylesheet" type="text/css">  
-<script>
-function getRandomNum(Min, Max) {
-            var Range = Max - Min;
-            var Rand = Math.random();
-            var res = (Min + Math.round(Rand * Range));
-            if(res == 2) return 1;
-            return res;
-        }
- 		localStorage.setItem('modelId', getRandomNum(1,4));  
- 		localStorage.setItem('modelTexturesId',  getRandomNum(1,4));
- </script>  
-
-<script>
-const live2d_path="http://api.itggg.cn/live2dnew/left/";function loadExternalResource(url,type){return new Promise((resolve,reject)=>{let tag;if(type==="css"){tag=document.createElement("link");tag.rel="stylesheet";tag.href=url}else if(type==="js"){tag=document.createElement("script");tag.src=url}if(tag){tag.onload=()=>resolve(url);tag.onerror=()=>reject(url);document.head.appendChild(tag)}})}if(screen.width>=768){Promise.all([loadExternalResource(live2d_path+"waifu.min.css","css"),loadExternalResource(live2d_path+"live2d.min.js","js"),loadExternalResource(live2d_path+"waifu-tips.min.js","js")]).then(()=>{initWidget({waifuPath:live2d_path+"waifu-tips.json",apiPath:"http://api.itggg.cn/live2d_api/",})})}</script>  
 ```
 
 # 自定义内容  
 ```html
 <script src="http://39.103.236.238:19090/public/jq.js"></script>
-
+	<div class="st-Container">
+ <a style='display:none' class="st-Menu closed" id="st-Menu" href="javascript:void(0);"></a>
+    </div>
+      <div class="sw-Hennnyano" id="sw-Hennnyano">
+        <div class="layer body w100" data-depth="0.1"></div>
+        <div class="layer eyes w100" data-depth="0.2"></div>
+      </div>
+    </div>
+    <script src="http://39.103.236.238:19090/public/js/lib.js"></script>
+    <script src="http://39.103.236.238:19090/public/js/parallax.min.js"></script>
+    <script src="http://39.103.236.238:19090/public/js/app.bundle.js"></script>
 <div id="jsi-flying-fish-container" class="fish-container"></div>
-
-<script src='http://39.103.236.238:19090/public/fish.js'></script>  
+<script src='http://39.103.236.238:19090/public/fish.js'></script>
 ```
 
 # 效果图  
-![image](https://user-images.githubusercontent.com/109069769/229329197-b5c9a104-e5dd-4513-9e63-784bfcba90e8.png)  
+![image](https://user-images.githubusercontent.com/109069769/235429828-fefd6ace-325f-4f75-9493-fca157c1f24e.png)  
 
-![image](https://user-images.githubusercontent.com/109069769/229329259-4a839d8b-3e31-47d5-a034-cee25c1bf3e8.png)
+![image](https://user-images.githubusercontent.com/109069769/235429920-209e30c2-7273-454b-8fc2-2bc16c9ce458.png)  
+* 点击猫猫即可返回顶部
+![image](https://user-images.githubusercontent.com/109069769/235430043-e4d3e5cd-0c98-4933-9030-8611441789bb.png)
 
-# 一些帮助
-* live2d遮挡按钮，刷新即可解决  
 
-![image](https://user-images.githubusercontent.com/109069769/229330553-d3f03ad8-865a-41c4-b4df-7c1fe32e4a95.png)
 
