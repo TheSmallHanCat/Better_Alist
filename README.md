@@ -8,12 +8,12 @@
 
 # 自定义头部  
 ```html
-<link href="http://39.103.236.238:19090/public/alist.css" rel="stylesheet" type="text/css">  
+<link href="https://api.hancat.link/cloud/alist.css" rel="stylesheet" type="text/css">  
 ```
 
 # 自定义内容  
 ```html
-<script src="http://39.103.236.238:19090/public/jq.js"></script>
+<script src="https://api.hancat.link/cloud/jq.js"></script>
 	<div class="st-Container">
  <a style='display:none' class="st-Menu closed" id="st-Menu" href="javascript:void(0);"></a>
     </div>
@@ -22,11 +22,11 @@
         <div class="layer eyes w100" data-depth="0.2"></div>
       </div>
     </div>
-    <script src="http://39.103.236.238:19090/public/js/lib.js"></script>
-    <script src="http://39.103.236.238:19090/public/js/parallax.min.js"></script>
-    <script src="http://39.103.236.238:19090/public/js/app.bundle.js"></script>
+    <script src="https://api.hancat.link/cloud/lib.js"></script>
+    <script src="https://api.hancat.link/cloud/parallax.min.js"></script>
+    <script src="https://api.hancat.link/cloud/app.bundle.js"></script>
 <div id="jsi-flying-fish-container" class="fish-container"></div>
-<script src='http://39.103.236.238:19090/public/fish.js'></script>
+<script src='https://api.hancat.link/cloud/fish.js'></script>
 ```
 
 # 效果图  
