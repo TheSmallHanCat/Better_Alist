@@ -6,7 +6,7 @@ Koyuki
 */
 
 body{
-	background-image:url('http://quanjiatong.ltd/api.php');
+	background-image:url('http://api.hancat.link/cloud/api.php');//将此处替换为你自己的背景图api地址
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
