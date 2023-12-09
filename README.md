@@ -8,12 +8,12 @@
 
 # 自定义头部  
 ```html
-<link href="https://api.hancat.link/cloud/alist.css" rel="stylesheet" type="text/css">  
+<link href="https://cdn.jsdelivr.net/gh/TheSmallHanCat/Better_Alist@main/alist.css" rel="stylesheet" type="text/css">  
 ```
 
 # 自定义内容  
 ```html
-<script src="https://api.hancat.link/cloud/jq.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/TheSmallHanCat/Better_Alist@main/jq.js"></script>
 	<div class="st-Container">
  <a style='display:none' class="st-Menu closed" id="st-Menu" href="javascript:void(0);"></a>
     </div>
@@ -22,11 +22,11 @@
         <div class="layer eyes w100" data-depth="0.2"></div>
       </div>
     </div>
-    <script src="https://api.hancat.link/cloud/lib.js"></script>
-    <script src="https://api.hancat.link/cloud/parallax.min.js"></script>
-    <script src="https://api.hancat.link/cloud/app.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/TheSmallHanCat/Better_Alist@main/js/lib.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/TheSmallHanCat/Better_Alist@main/js/parallax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/TheSmallHanCat/Better_Alist@main/js/app.bundle.js"></script>
 <div id="jsi-flying-fish-container" class="fish-container"></div>
-<script src='https://api.hancat.link/cloud/fish.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/TheSmallHanCat/Better_Alist@main/fish.js'></script>
 ```
 
 # 效果图  
