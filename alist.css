@@ -69,11 +69,23 @@ body{
     justify-content: center;
     backdrop-filter: blur(5px);
 }
-.left-toolbar-box hope-c-PJLV hope-c-PJLV-ifiEvmt-css
-{
+
+    .hope-c-PJLV-ikaMhsQ-css{
+    --hope-colors-background: #ffffff;}
+    .hope-c-PJLV-idaeksS-css{
+    opacity: .6;
+    backdrop-filter: blur(10px);
+    border-radius: 7px;
+    }
+.hope-c-PJLV-ifiEvmt-css{
     opacity: .7;
-    justify-content: center;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
+}
+.hope-c-PJLV-iSMXDf-css{
+    opacity: .9;
+}
+.hope-c-PJLV-ijhzIfm-css{
+    backdrop-filter: blur(1px);
 }
 .sw-Hennnyano {
     width: 224px;
