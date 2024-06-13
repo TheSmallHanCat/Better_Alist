@@ -7,6 +7,7 @@
 * 添加回到顶部猫猫  
 
 ## 使用方法  
+   * 以下内容针对静态背景，视频背景详见[此处](https://github.com/TheSmallHanCat/Better_Alist/issues/7)
    * 在Alist后台页面依次选择```设置```-->```全局```
    * 将以下内容添加到对应框框内
      * 自定义头部  
